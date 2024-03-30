@@ -4,26 +4,15 @@ reverse engineering the human brain and recreating the neocortex, hippocampus, b
 
 Inspired the theory in ["A Brief History of Intelligence"](https://www.amazon.com/Brief-History-Intelligence-Humans-Breakthroughs/dp/0063286343) by Max Bennet and [geohot's](https://geohot.github.io/blog/jekyll/update/2024/03/27/where-the-bitter-lesson-ends.html) brief analysis.
 
-## Brain Areas
+## Brain regions
 
-Neocortex
-- transformer
+### Neocortex
 - simulation (frontal)
-- model based
-- allows for few shot learning
-Hippocampus
-- really good RAG  
-Basal Ganglia
-- TD-learning
-- automatic
-- model-free
-Amygdala
-- prevent the agent from destroying itself
-Thalamus
-- coordinate the system and search
-
-# aPFC
-
+- model-based
+- COMP: transformer
+- allows for few-shot learning
+- general purpose
+### aPFC
 - Agranular Prefrontal Cortex
 - creates a simulation of an animals own movements and internal states (self model)
 - constructs intnet to explain one's own behavior
@@ -34,13 +23,32 @@ Thalamus
   - offers a more advanced solution to the credit assignment problem
 - These simulations enabled early mammals to engage in episodic memory 
 - Allows for the "imaginarium"
-
-# gPFC
+### gPFC
 - granular prefrontal cortex
 - found in primates
 - used to model intent from ones own inner simulation
+  - explains intent by simulating what another person's inner simulation is like
+- allows for theory of mind
+### Hippocampus
+- consolidation of information from short-term memory to long-term memory, and in spatial memory that enables navigation
+- largest job is to hold short-term memories and transfer them to long-term storage in our brains
+- COMP: really good RAG  
+### Basal Ganglia
+- TD-learning
+- automatic
+- model-free
+### Amygdala
+- has a primary role in the processing of memory, decision-making, and emotional responses (including fear, anxiety, and aggression)
+- prevents the agent from destroying itself
+- plays a key role in emotional responses and the formation of emotional memories
+- activation of the fight-or-flight
+### Thalamus
+- coordinate the system and search
+- acts as a relay station for sensory and motor signals, as well as regulating consciousness and alertness
+- All information from your body's senses (except smell) must be processed through your thalamus before being sent to your brain's cerebral cortex for interpretation
+- encoder and propogates information? attention mechanism to know where to send/focus information?
 
-## Motor Hierarchy
+## Goal Hierarchy
 
 aPFC (high-level goals)
 
