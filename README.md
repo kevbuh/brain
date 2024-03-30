@@ -8,13 +8,33 @@ based off of the findings in ["A Brief History of Intelligence"](https://www.ama
 
 Neocortex
 - transformer
-  
+- simulation (frontal)
+- model based
+- allows for few shot learning
 Hippocampus
 - really good RAG
   
 Basal Ganglia
 - TD-learning
+- automatic
+- model-free
   
 Amygdala
 
 Thalamus
+
+## Motor Hierarchy
+
+aPFC (high-level goals)
+
+$\downarrow$
+
+premotor cortex (subgoals)
+
+$\downarrow$
+
+motor cortex (sub-subgoals)
+
+$\downarrow$
+
+Basal Ganglia
