@@ -63,3 +63,17 @@ motor cortex (sub-subgoals)
 $\downarrow$
 
 Basal Ganglia
+
+# Roadmap
+
+- Evidence suggests that the humans brain is literally a scaled up primate brain: a bigger neocrtex, a bigger basal ganglia, but still containing all the same areas wired in all the same ways. 
+
+Evolution to human brain:
+1. Cynobacteria
+2. Ancient Fish
+3. Amphibian
+4. Ancient mammal
+5. Primate
+6. Human
+
+So we can first start by creating a working version of a Cynobacteria brain, and then slowly progress to a humanlike brain.

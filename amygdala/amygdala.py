@@ -1,0 +1,2 @@
+class Amygdala:
+  pass
