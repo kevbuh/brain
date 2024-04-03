@@ -4,6 +4,8 @@ reverse engineering the human brain and recreating the neocortex, hippocampus, b
 
 Inspired the theory in ["A Brief History of Intelligence"](https://www.amazon.com/Brief-History-Intelligence-Humans-Breakthroughs/dp/0063286343) by Max Bennet and [geohot's](https://geohot.github.io/blog/jekyll/update/2024/03/27/where-the-bitter-lesson-ends.html) brief analysis.
 
+in order to avoid complexity, entire repo must be under 10,000 lines of codes.
+
 ## Brain regions
 
 ### Neocortex
