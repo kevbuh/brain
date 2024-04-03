@@ -1,10 +1,24 @@
 # brain
 
-reverse engineering the human brain and recreating the neocortex, hippocampus, basal ganglia, amygdala, and thalamus into computer version.
+Reverse engineering the human brain. Recreating the neocortex, hippocampus, basal ganglia, amygdala, and thalamus into their respective digital version.
 
 Inspired the theory in ["A Brief History of Intelligence"](https://www.amazon.com/Brief-History-Intelligence-Humans-Breakthroughs/dp/0063286343) by Max Bennet and [geohot's](https://geohot.github.io/blog/jekyll/update/2024/03/27/where-the-bitter-lesson-ends.html) brief analysis.
 
-in order to avoid complexity, entire repo must be under 10,000 lines of codes.
+In order to avoid complexity, entire repo must be under 10,000 lines of codes.
+
+# Roadmap
+
+Evidence suggests that the humans brain is simply a scaled up primate brain: a bigger neocrtex, a bigger basal ganglia, but still containing all the same areas wired in all the same ways. 
+
+Evolution to human brain:
+1. Cynobacteria
+2. Ancient Fish
+3. Amphibian
+4. Ancient mammal
+5. Primate
+6. Human
+
+So we can first start by creating a working version of a Cynobacteria brain, and then slowly progress to a humanlike brain.
 
 ## Brain regions
 
@@ -65,17 +79,3 @@ motor cortex (sub-subgoals)
 $\downarrow$
 
 Basal Ganglia
-
-# Roadmap
-
-- Evidence suggests that the humans brain is literally a scaled up primate brain: a bigger neocrtex, a bigger basal ganglia, but still containing all the same areas wired in all the same ways. 
-
-Evolution to human brain:
-1. Cynobacteria
-2. Ancient Fish
-3. Amphibian
-4. Ancient mammal
-5. Primate
-6. Human
-
-So we can first start by creating a working version of a Cynobacteria brain, and then slowly progress to a humanlike brain.
