@@ -1,6 +1,6 @@
 # brain
 
-Reverse engineering the human brain. Recreating the neocortex, hippocampus, basal ganglia, amygdala, and thalamus into their respective digital version.
+Reverse engineering the human brain. Recreating the neocortex, hippocampus, basal ganglia, amygdala, and thalamus into their respective digital version. (“find the right algorithms” effectively replicating a mammalian brain module by module")[https://gwern.net/scaling-hypothesis#prospects:~:text=%E2%80%9Cfind%20the%20right%20algorithms%E2%80%9D%20effectively%20replicating%20a%20mammalian%20brain%20module%20by%20module]
 
 Inspired the theory in ["A Brief History of Intelligence"](https://www.amazon.com/Brief-History-Intelligence-Humans-Breakthroughs/dp/0063286343) by Max Bennet, [geohot's](https://geohot.github.io/blog/jekyll/update/2024/03/27/where-the-bitter-lesson-ends.html) brief analysis, and ["How to Build a Brain"](https://www.amazon.com/How-Build-Brain-Architecture-Architectures/dp/0190262125).
 
@@ -30,6 +30,14 @@ So we can first start by creating a working version of a Cynobacteria brain, and
 - COMP: transformer
 - allows for few-shot learning
 - general purpose
+- stores intelligent world model and where simulations take place
+- Birds and lizards both have a similar and functionally equivalent part, the pallium
+- cortical uniformity
+  - all regions are running the same generic learning algorithm in a massively-parallelized way (transformer-like?)
+  - however the certain regions have tradeoffs for optimal settings for their domain/function
+  - connections get refined and edited during learning
+- might start as a "blank slate" world model that the learning algorithm refines over time
+- tries to steer/influence the subcortex
 ### aPFC
 - Agranular Prefrontal Cortex
 - creates a simulation of an animals own movements and internal states (self model)
@@ -68,6 +76,13 @@ So we can first start by creating a working version of a Cynobacteria brain, and
 - acts as a relay station for sensory and motor signals, as well as regulating consciousness and alertness
 - All information from your body's senses (except smell) must be processed through your thalamus before being sent to your brain's cerebral cortex for interpretation
 - encoder and propogates information? attention mechanism to know where to send/focus information?
+### Cerebellum
+- Maintains internal models, control balance and rythmic movements, perform online error correction
+- portion of the brain in the back of the head between the cerebrum and the brain stem
+- may also be involved in some cognitive functions such as attention and language as well as emotional control such as regulating fear and pleasure responses
+### Telencephalon
+- the most highly developed and anterior part of the forebrain
+- consists mainly of the cerebral hemispheres
 
 ## Goal Hierarchy
 
